@@ -10,9 +10,9 @@ import Contact from "./Contact";
 const Home = () => {
   return <>
       <Main />
-      <About />
-      <Hamkorlik />
-      <Contact />
+      {/* <About /> */}
+      {/* <Hamkorlik /> */}
+      {/* <Contact /> */}
     
   </>
 }
