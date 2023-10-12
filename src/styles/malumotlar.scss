@@ -1,0 +1,717 @@
+.malumotlar{
+    border: 1px solid #111;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    .qoidalar{
+        // border: red 2px solid;
+        h1{
+            text-align: center;
+        }
+        width: 100%;
+        .line{
+            background-color:  #111;
+            height: 2px;
+            width: 100%;
+        }
+      
+        .qoidalar-jamlami{
+            padding: 40px 0;
+            // border: red 1px solid; 
+            width: 100%;
+            display: flex;
+            // flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            section{
+                // overflow: hidden;
+                position: relative;
+                width: 49%;
+                height: 400px;
+                background-color: rgb(2, 16, 2);
+                margin: 30px 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+                letter-spacing: 1px;
+                // border-radius: 12px;
+                line-height: 22px;
+                color: #fff;
+                // box-shadow: 0 0 10px black;
+                &:nth-child(1){
+                    background-image: url("../assets/water3.jpg");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    h1{
+                        font-size: 80px;
+                        position: absolute;
+                        z-index: 1111;
+                        left: 20px;
+                        top: -10px;
+                        color: rgb(0, 205, 41);
+                        font-weight: bold;
+                    }
+                    .blackCover{
+                        height: 100%;
+                        width: 100%;
+                        background-color: rgb(17, 17, 17, .6);
+                        position: absolute;
+                    }
+                    p{
+                        z-index: 1;
+                    }
+                }
+                &:nth-child(2){
+                    background-image: url("../assets/water2.png");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    h1{
+                        font-size: 80px;
+                        position: absolute;
+                        z-index: 1111;
+                        left: 20px;
+                        top: -10px;
+                        color: rgb(0, 205, 41);
+                        font-weight: bold;
+                    }
+                    .blackCover{
+                        height: 100%;
+                        width: 100%;
+                        background-color: rgb(17, 17, 17, .6);
+                        position: absolute;
+                    }
+                    p{
+                        z-index: 1;
+                    }
+                }
+                &:nth-child(3){
+                    background-image: url("../assets/water4.jpg");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    h1{
+                        font-size: 80px;
+                        position: absolute;
+                        z-index: 1111;
+                        left: 20px;
+                        top: -10px;
+                        color: rgb(0, 205, 41);
+                        font-weight: bold;
+                    }
+                    .blackCover{
+                        height: 100%;
+                        width: 100%;
+                        background-color: rgb(17, 17, 17, .6);
+                        position: absolute;
+                    }
+                    p{
+                        z-index: 1;
+                    }
+                }
+                &:nth-child(4){
+                    background-image: url("../assets/water3.jpg");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    h1{
+                        font-size: 80px;
+                        position: absolute;
+                        z-index: 1111;
+                        left: 20px;
+                        top: -10px;
+                        color: rgb(0, 205, 41);
+                        font-weight: bold;
+                    }
+                    .blackCover{
+                        height: 100%;
+                        width: 100%;
+                        background-color: rgb(17, 17, 17, .6);
+                        position: absolute;
+                    }
+                    p{
+                        z-index: 1;
+                    }
+                }
+                &:nth-child(5){
+                    background-image: url("../assets/backPic.jpg");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    h1{
+                        font-size: 80px;
+                        position: absolute;
+                        z-index: 1111;
+                        left: 20px;
+                        top: -10px;
+                        color: rgb(0, 205, 41);
+                        font-weight: bold;
+                    }
+                    .blackCover{
+                        height: 100%;
+                        width: 100%;
+                        background-color: rgb(17, 17, 17, .6);
+                        position: absolute;
+                    }
+                    p{
+                        z-index: 1;
+                    }
+                }
+                &:nth-child(6){
+                    background-image: url("../assets/water2.png");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    h1{
+                        font-size: 80px;
+                        position: absolute;
+                        z-index: 1111;
+                        left: 20px;
+                        top: -10px;
+                        color: rgb(0, 205, 41);
+                        font-weight: bold;
+                    }
+                    .blackCover{
+                        height: 100%;
+                        width: 100%;
+                        background-color: rgb(17, 17, 17, .6);
+                        position: absolute;
+                    }
+                    p{
+                        z-index: 1;
+                    }
+                }
+            }
+        }
+    }
+    .tashkiliy_tuzilma{
+        padding: 40px;
+        background-color: rgb(58, 58, 226);
+        width: 100%;
+        // border: 1px solid #111;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            margin-bottom: 60px;
+            font-size: 40px;
+            color: #fff;
+        }
+        div{
+            display: flex;
+            align-items: center;
+            section{
+                p{
+                    margin-right: 30px;
+                    font-size: 22px;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .funksiyalar{
+        padding: 80px 40px;
+        // border: 1px solid #111;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        div{
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            section{
+                // border: 1px solid #111;
+                width: 400px;
+                height: 160px;
+                margin:  20px 0;
+                padding: 14px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(58, 58, 226);
+                p{
+                    text-align: center;
+                    color: #fff;
+                    font-size: 18px;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+    .majburiyatlar{
+        padding: 40px;
+        width: 100%;
+        // border: 1px solid #111;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        div{
+            margin-top: 40px;
+            background-color: rgb(58, 58, 226);
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            padding: 40px;
+
+            section{
+                border: 1px solid #fff;
+                width: 400px;
+                height: 160px;
+                margin:  20px 0;
+                padding: 14px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(58, 58, 226);
+                p{
+                    color: #fff;
+                    font-size: 18px;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+//Making responsive 
+// /////////////////////////////////////////////////////
+
+@media (max-width: 1200px){
+    .malumotlar{
+        border: 1px solid #111;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        .qoidalar{
+            // border: red 2px solid;
+            width: 100%;
+            .line{
+                background-color:  #111;
+                height: 2px;
+                width: 100%;
+            }
+          
+            .qoidalar-jamlami{
+                padding: 40px 0;
+                // border: red 1px solid; 
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                section{
+                    // overflow: hidden;
+                    position: relative;
+                    width: 100%;
+                    height: 400px;
+                    background-color: rgb(2, 16, 2);
+                    margin: 20px 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 20px;
+                    letter-spacing: 1px;
+                    // border-radius: 12px;
+                    line-height: 22px;
+                    color: #fff;
+                    // box-shadow: 0 0 10px black;
+                    &:nth-child(1){
+                        background-image: url("../assets/water3.jpg");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        .blackCover{
+                            height: 100%;
+                            width: 100%;
+                            background-color: rgb(17, 17, 17, .6);
+                            position: absolute;
+                        }
+                        p{
+                            z-index: 1;
+                        }
+                    }
+                    &:nth-child(2){
+                        background-image: url("../assets/water2.png");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                       
+                        .blackCover{
+                            height: 100%;
+                            width: 100%;
+                            background-color: rgb(17, 17, 17, .6);
+                            position: absolute;
+                        }
+                        p{
+                            z-index: 1;
+                        }
+                    }
+                    &:nth-child(3){
+                        background-image: url("../assets/water4.jpg");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        .blackCover{
+                            height: 100%;
+                            width: 100%;
+                            background-color: rgb(17, 17, 17, .6);
+                            position: absolute;
+                        }
+                        p{
+                            z-index: 1;
+                        }
+                    }
+                    &:nth-child(4){
+                        background-image: url("../assets/water3.jpg");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        .blackCover{
+                            height: 100%;
+                            width: 100%;
+                            background-color: rgb(17, 17, 17, .6);
+                            position: absolute;
+                        }
+                        p{
+                            z-index: 1;
+                        }
+                    }
+                    &:nth-child(5){
+                        background-image: url("../assets/backPic.jpg");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        .blackCover{
+                            height: 100%;
+                            width: 100%;
+                            background-color: rgb(17, 17, 17, .6);
+                            position: absolute;
+                        }
+                        p{
+                            z-index: 1;
+                        }
+                    }
+                    &:nth-child(6){
+                        background-image: url("../assets/water2.png");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        .blackCover{
+                            height: 100%;
+                            width: 100%;
+                            background-color: rgb(17, 17, 17, .6);
+                            position: absolute;
+                        }
+                        p{
+                            z-index: 1;
+                        }
+                    }
+                }
+            }
+        }
+        .tashkiliy_tuzilma{
+            padding: 40px;
+            background-color: rgb(58, 58, 226);
+            width: 100%;
+            // border: 1px solid #111;
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
+            h1{
+                margin-bottom: 60px;
+                font-size: 40px;
+                color: #fff;
+            }
+            div{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                section{
+                    p{
+                        margin-right: 0px;
+                        text-align: center;
+                        margin-bottom: 30px;
+                        font-size: 22px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+        .funksiyalar{
+            padding: 80px 40px;
+            // border: 1px solid #111;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            div{
+                margin-top: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                section{
+                    // border: 1px solid #111;
+                    width: 400px;
+                    height: 160px;
+                    margin:  20px;
+                    padding: 14px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: rgb(58, 58, 226);
+                    p{
+                        text-align: center;
+                        color: #fff;
+                        font-size: 18px;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 700px){
+    .malumotlar{
+        border: 1px solid #111;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        .qoidalar{
+            // border: red 2px solid;
+            width: 100%;
+            .line{
+                background-color:  #111;
+                height: 2px;
+                width: 100%;
+            }
+          
+            .qoidalar-jamlami{
+                padding: 40px 0;
+                // border: red 1px solid; 
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                section{
+                    // overflow: hidden;
+                    position: relative;
+                    width: 100%;
+                    height: 400px;
+                    background-color: rgb(2, 16, 2);
+                    margin: 20px 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 20px;
+                    letter-spacing: 1px;
+                    // border-radius: 12px;
+                    line-height: 22px;
+                    color: #fff;
+                    // box-shadow: 0 0 10px black;
+                    &:nth-child(1){
+                        background-image: url("../assets/water3.jpg");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        .blackCover{
+                            height: 100%;
+                            width: 100%;
+                            background-color: rgb(17, 17, 17, .6);
+                            position: absolute;
+                        }
+                        p{
+                            z-index: 1;
+                        }
+                    }
+                    &:nth-child(2){
+                        background-image: url("../assets/water2.png");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                       
+                        .blackCover{
+                            height: 100%;
+                            width: 100%;
+                            background-color: rgb(17, 17, 17, .6);
+                            position: absolute;
+                        }
+                        p{
+                            z-index: 1;
+                        }
+                    }
+                    &:nth-child(3){
+                        background-image: url("../assets/water4.jpg");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        .blackCover{
+                            height: 100%;
+                            width: 100%;
+                            background-color: rgb(17, 17, 17, .6);
+                            position: absolute;
+                        }
+                        p{
+                            z-index: 1;
+                        }
+                    }
+                    &:nth-child(4){
+                        background-image: url("../assets/water3.jpg");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        .blackCover{
+                            height: 100%;
+                            width: 100%;
+                            background-color: rgb(17, 17, 17, .6);
+                            position: absolute;
+                        }
+                        p{
+                            z-index: 1;
+                        }
+                    }
+                    &:nth-child(5){
+                        background-image: url("../assets/backPic.jpg");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        .blackCover{
+                            height: 100%;
+                            width: 100%;
+                            background-color: rgb(17, 17, 17, .6);
+                            position: absolute;
+                        }
+                        p{
+                            z-index: 1;
+                        }
+                    }
+                    &:nth-child(6){
+                        background-image: url("../assets/water2.png");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        .blackCover{
+                            height: 100%;
+                            width: 100%;
+                            background-color: rgb(17, 17, 17, .6);
+                            position: absolute;
+                        }
+                        p{
+                            z-index: 1;
+                        }
+                    }
+                }
+            }
+        }
+        .tashkiliy_tuzilma{
+            padding: 40px;
+            background-color: rgb(58, 58, 226);
+            width: 100%;
+            // border: 1px solid #111;
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
+            h1{
+                margin-bottom: 60px;
+                font-size: 40px;
+                color: #fff;
+            }
+            div{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                section{
+                    p{
+                        margin-right: 0px;
+                        text-align: center;
+                        margin-bottom: 30px;
+                        font-size: 22px;
+                        color: #fff;
+                    }
+                }
+                img{
+                    height: 300px;
+                }
+            }
+        }
+
+        .funksiyalar{
+            padding: 80px 40px;
+            // border: 1px solid #111;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            div{
+                margin-top: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                section{
+                    // border: 1px solid #111;
+                    width: 400px;
+                    height: 160px;
+                    margin:  20px;
+                    padding: 14px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: rgb(58, 58, 226);
+                    p{
+                        text-align: center;
+                        color: #fff;
+                        font-size: 18px;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+        }
+    }
+}
